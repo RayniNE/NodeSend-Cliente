@@ -1,12 +1,15 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
 const Login = () => {
 
-    return ( 
-        <div>
-            <h1> Desde LOGIN </h1>
-        </div>
-     );
+  return ( 
+    
+    <Layout>
+          <h1> Desde Login </h1>
+    </Layout>
+
+   );
 }
  
 export default Login;
