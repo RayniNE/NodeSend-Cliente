@@ -115,7 +115,8 @@ const AppState = ({children}) => {
                 password: state.password,
                 mostrarAlerta,
                 subirArchivo,
-                crearEnlace
+                crearEnlace,
+                limpiarState
             }}
         >
             {children}
